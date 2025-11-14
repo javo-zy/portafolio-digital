@@ -9,11 +9,10 @@ export const Hero = () => {
     <section className="min-h-[calc(100vh-80px)] flex items-center justify-center p-4 bg-gray-50 dark:bg-gray-900">
       <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto">
         
-        {/* Imagen de Perfil (Placeholder) */}
         <div className="w-48 h-48 md:w-64 md:h-64 relative rounded-full overflow-hidden shadow-lg">
 
           <Image
-            src="/javier.png" // <-- Placeholder temporal
+            src="/javier.png"
             alt="Javier Baldizon - Foto de Perfil"
             layout="fill"
             objectFit="cover"
@@ -21,7 +20,6 @@ export const Hero = () => {
           />
         </div>
 
-        {/* Contenido de Texto */}
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold mb-2">
             Javier Baldizon

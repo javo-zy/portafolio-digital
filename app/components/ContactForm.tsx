@@ -1,5 +1,3 @@
-// src/components/ContactForm.tsx
-
 "use client";
 import { useForm, ValidationError } from '@formspree/react';
 

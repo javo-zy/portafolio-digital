@@ -5,24 +5,25 @@ const projectsData = [
   {
     title: "Resisearch",
     description: "Aquí va la descripción de tu proyecto Resisearch. Explica qué hace, cuál fue tu rol, etc.",
-    tags: ["Power App", "Figma", ], // TODO: Actualiza las tecnologías
-    imageUrl: "/resisearch.png", // TODO: Cambia la imagen
-    githubUrl: "#", // TODO: Añade el enlace de GitHub
-    demoUrl: "#",   // TODO: Añade el enlace de la demo
+    tags: ["Power App", "Figma", ],
+    imageUrl: "/resisearch.png", 
+    githubUrl: "#",
+    demoUrl: "#",  
   },
   {
     title: "Chambi",
     description: "Aquí va la descripción de tu proyecto Chambi. ¿Qué problema resuelve? ¿Qué aprendiste?",
-    tags: ["WordPress", "Figma", "PostgreSQL"], // TODO: Actualiza las tecnologías
-    imageUrl: "/chambi.png", // TODO: Cambia la imagen
-    figmaUrl: "#", // TODO: Añade el enlace de GitHub
+    tags: ["WordPress", "Figma", "PostgreSQL"], 
+    imageUrl: "/chambi.png",
+    githubUrl: "#",
+    demoUrl: "#",  
   },
   {
     title: "Jambo",
     description: "Aquí va la descripción de tu proyecto Jambo. ¿Fue un proyecto en equipo? ¿Qué tecnologías usaste?",
-    tags: ["Supabase", "Next.js",], // TODO: Actualiza las tecnologías
-    imageUrl: "/jambo-logo.png", // TODO: Cambia la imagen
-    githubUrl: "https://github.com/javo-zy/jambo-app.git", // TODO: Añade el enlace de GitHub
+    tags: ["Supabase", "Next.js",],
+    imageUrl: "/jambo.png", 
+    githubUrl: "https://github.com/javo-zy/jambo-app.git", 
   },
 ];
 
