@@ -88,8 +88,7 @@ export const ContactForm = () => {
           {state.submitting ? "Enviando..." : "Enviar Mensaje"}
         </button>
         
-        
-        {state.errors && !state.errors.fieldErrors && (
+        {state.errors && state.errors.getFormErrors().length > 0 && (
           <p className="mt-4 text-red-600 dark:text-red-400">
             Hubo un error al enviar el formulario.
           </p>
