@@ -7,7 +7,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";   
-
+import {Testimonials} from "./components/Testimonials";
 export default function Home() {
   return (
     <main className="min-h-screen">
@@ -15,7 +15,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
-      <Projects />     
+      <Projects />  
+      <Testimonials />   
       <Contact /> 
       <Footer />  
     </main>
