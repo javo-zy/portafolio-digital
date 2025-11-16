@@ -6,7 +6,7 @@ const projectsData = [
     title: "Resisearch",
     description: "Aquí va la descripción de tu proyecto Resisearch. Explica qué hace, cuál fue tu rol, etc.",
     tags: ["Power App", "Figma", ],
-    imageUrl: "/resisearch-logo (2).png", 
+    imageUrl: "/Resisearch.png", 
     githubUrl: "#",
     demoUrl: "#",  
   },
